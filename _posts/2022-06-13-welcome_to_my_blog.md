@@ -1,6 +1,6 @@
 ---
 title: "Welcome to my personal website"
-date: 2022-06-13T16:05:30-18:00
+date: 2022-06-13T16:05:30-18:00:00
 categories:
   - blog
 tags:
