@@ -1,6 +1,6 @@
 ---
 title: "welcome to my blog"
-date: 2022-06-13T16:05:30-18:00:00
+date: 2022-06-13T15:34:30-04:00
 categories:
   - blog
 tags:
