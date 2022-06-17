@@ -1,5 +1,5 @@
 ---
-title: "小记一下（1）"
+title: "RandomNotes(1)"
 date: 2022-06-14T15:21:30-04:00
 categories:
   - blog
@@ -8,10 +8,9 @@ tags:
   - C++
   - OOP
 ---
-总的来说，hashtable真的很有用。在减少时间复杂度里，会在time和memory中存在trade off。
+Overall, hashtable is really useful. In reducing the time complexity, there will be a trade off between time and memory.
 
-一个非常典中典的问题：两数相加。
-
+A very classic problem: adding two numbers.
 ```ruby
 class Solution {
 public:
@@ -30,7 +29,7 @@ public:
     }
 };
 ```
-和一下的写法相比较：
+Compare with the other methods:
 ```ruby
 class Solution {
 public:
@@ -49,6 +48,6 @@ public:
 \
 ```
 
-下面的方法可以从O(N^2)减少到O(N)。非常的方便。
-不妨说是harsh的方法没有完全的清楚。
-HashTalbe: 若key=k，则其值存放在(k)的存储位置上。由此，不需比较便可直接取得所查记录。称这个对应关系f为散列函数，按这个思想建立的表为hash table。“wtf这不是2012的内容，属于是完全忘记了啊。。。”不刷题的坏处。。。连这种非常非常基本的题都得用暴力接发。。。
+The method below can reduce it from O(N^2) to O(N). Very convenient.
+It may be said that the method of harsh is not completely clear.
+HashTalbe: If key=k, its value is stored in the storage location of (k). Thus, the checked records can be obtained directly without comparison. This correspondence f is called a hash function, and the table established according to this idea is a hash table. "wtf this is the content of 2012, it is completely forgotten..." The disadvantage of not brushing the question. . . Even this very, very basic question has to be sent and received with violence. . .
