@@ -1,6 +1,6 @@
 ---
 title: "CUDA torch"
-date: 2022-06-20T12:00:30-04:00
+date: 2022-06-20T12:00:30-13:00
 categories:
   - blog
 tags:

@@ -75,8 +75,8 @@ author:
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/ajguo6/"
     - label: "LinkedIn"
-      icon: "https://www.linkedin.com/"
-      url: "in/jiarong-guo-4aa0181b8/"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/jiarong-guo-4aa0181b8/"
 
 footer:
   links:
