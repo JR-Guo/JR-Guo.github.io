@@ -83,14 +83,14 @@ analytics:
 author:
   name             : "Jiarong Guo"
   avatar           : "9A890ED8DE539F1960C794B69C6FA39C.jpg"
-  bio              : "Medical Image Analysis, Computer Vision"
-  location         : "HongKong, China"
-  #employer         :
-  #pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "https://scholar.google.com/citations?user=IT5sfsYAAAAJ&hl=en"
-  # semanticscholar     : "https://www.semanticscholar.org/author/Hualiang-Wang/2155981033"
+  bio              : "Researcher in Medical Image Analysis and Computer Vision. Passionate about developing AI solutions for healthcare applications."
+  location         : "Hong Kong, China"
+  employer         : "Research Institution"
+  #pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=jiarong+guo"
+  googlescholar    : "https://scholar.google.com/citations?user=IT5sfsYAAAAJ&hl=zh-CN"
+  # semanticscholar     : "https://www.semanticscholar.org/author/Jiarong-Guo/xxxxx"
   email            : "jiarong.guo01@gmail.com"
-  uri              :
+  uri              : "https://JR-Guo.github.io"
   bitbucket        :
   codepen          :
   dribbble         :
