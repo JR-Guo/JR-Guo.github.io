@@ -92,16 +92,6 @@ blog_preview:
       <p>Peer-reviewed papers in medical imaging and computer vision.</p>
       <p><a class="btn btn--primary" href="/publications/">View publications</a></p>
     </div>
-    <div class="feature__item">
-      <h3>Talks</h3>
-      <p>Invited talks and conference presentations.</p>
-      <p><a class="btn" href="/talks/">See talks</a></p>
-    </div>
-    <div class="feature__item">
-      <h3>Global map</h3>
-      <p>Research collaborators and venues around the world.</p>
-      <p><a class="btn" href="/global-map/">Explore map</a></p>
-    </div>
   </div>
 </div>
 
