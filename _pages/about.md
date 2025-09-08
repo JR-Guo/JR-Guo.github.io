@@ -1,5 +1,5 @@
 ---
-permalink: /
+permalink: /about/
 title: "Jiarong Guo - Medical Image Analysis & Computer Vision Researcher"
 excerpt: "About me"
 author_profile: true
