@@ -43,6 +43,8 @@ blog_preview:
   title: "Latest from the blog"
 ---
 
+{% include author-profile.html %}
+
 <div class="page__section" style="margin-top:1.5rem">
   <div class="feature__item" style="display:flex;gap:1.25rem;align-items:center;flex-wrap:wrap">
     <img src="/images/profile.png" alt="Jiarong Guo" style="width:96px;height:96px;border-radius:50%">
