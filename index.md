@@ -45,45 +45,6 @@ blog_preview:
 
 {% include author-profile.html %}
 
-<div class="page__section" style="margin-top:1.5rem">
-  <div class="feature__item" style="display:flex;gap:1.25rem;align-items:center;flex-wrap:wrap">
-    <img src="/images/profile.png" alt="Jiarong Guo" style="width:96px;height:96px;border-radius:50%">
-    <div>
-      <h2 style="margin:0 0 .25rem 0">Hi, I'm Jiarong</h2>
-      <p style="margin:0">I build robust AI for medical imaging, from segmentation and reconstruction to clinically useful decision support. Currently in Hong Kong.</p>
-      <p style="margin:.5rem 0 0 0"><a class="btn btn--primary" href="/about/">About me</a></p>
-    </div>
-  </div>
-</div>
-
-<div class="page__section" style="margin-top:2rem">
-  <h2>Research interests</h2>
-  <ul>
-    <li>Medical image segmentation and registration</li>
-    <li>Reconstruction, denoising, and image quality enhancement</li>
-    <li>Self-supervised and foundation models for medical imaging</li>
-    <li>Trustworthy AI: robustness, interpretability, and fairness</li>
-  </ul>
-</div>
-
-<div class="page__section" style="margin-top:2rem">
-  <h2>What I'm doing now</h2>
-  <ul>
-    <li>Building datasets and benchmarks for medical imaging tasks</li>
-    <li>Training compact, deployment-ready models for clinical settings</li>
-    <li>Collaborating with hospitals and labs worldwide</li>
-  </ul>
-</div>
-
-<div class="page__section" style="margin-top:2rem">
-  <h2>Time schedule</h2>
-  <dl>
-    <dt>Mon–Fri</dt><dd>09:00–18:00 HKT</dd>
-    <dt>Best hours for meetings</dt><dd>14:00–17:00 HKT</dd>
-    <dt>Response time</dt><dd>Within 24h on weekdays</dd>
-  </dl>
-</div>
-
 <div class="page__section" style="margin-top:2rem">
   <h2>Highlights</h2>
   <div class="feature__wrapper">
@@ -120,10 +81,5 @@ blog_preview:
     {%- endfor -%}
   </div>
   <p><a class="btn" href="/year-archive/">Read all posts</a></p>
-</div>
-
-<div class="page__section" style="margin-top:2rem">
-  <h2>Get in touch</h2>
-  <p>Email: <a href="mailto:jiarong.guo01@gmail.com">jiarong.guo01@gmail.com</a> · LinkedIn: <a href="https://linkedin.com/in/jiarong-guo-4aa0181b8" target="_blank" rel="noopener">@jiarong</a> · GitHub: <a href="https://github.com/JR-Guo" target="_blank" rel="noopener">JR-Guo</a></p>
 </div>
 

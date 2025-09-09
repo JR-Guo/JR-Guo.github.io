@@ -1,0 +1,175 @@
+/* Custom Layout Improvements for Jiarong Guo's Website */
+
+/* Author Profile Section Improvements */
+.author__avatar img {
+  border-radius: 50%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+/* Page Section Spacing */
+.page__section {
+  margin-bottom: 2rem;
+  
+  @include breakpoint($small) {
+    margin-bottom: 1.5rem;
+  }
+}
+
+/* Feature Wrapper Responsive Grid */
+.feature__wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+  
+  @include breakpoint($small) {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
+
+.feature__item {
+  padding: 1.5rem;
+  border: 1px solid $border-color;
+  border-radius: 8px;
+  background: #fff;
+  transition: box-shadow 0.3s ease, transform 0.2s ease;
+  
+  &:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px);
+  }
+  
+  h3 {
+    margin-top: 0;
+    color: $text-color;
+  }
+  
+  p {
+    margin-bottom: 1rem;
+    color: $muted-text-color;
+  }
+}
+
+/* Blog Preview Improvements */
+.archive__item {
+  padding: 1rem;
+  border-left: 3px solid $primary-color;
+  background: #f8f9fa;
+  margin-bottom: 1rem;
+  border-radius: 0 4px 4px 0;
+  
+  &:hover {
+    background: #e9ecef;
+  }
+}
+
+.archive__item-title {
+  margin-bottom: 0.5rem;
+  
+  a {
+    color: $text-color;
+    text-decoration: none;
+    
+    &:hover {
+      color: $primary-color;
+    }
+  }
+}
+
+/* Responsive Typography */
+@include breakpoint($small) {
+  .page__title {
+    font-size: 1.5rem;
+  }
+  
+  h2 {
+    font-size: 1.25rem;
+  }
+  
+  h3 {
+    font-size: 1.1rem;
+  }
+}
+
+/* Button Improvements */
+.btn {
+  border-radius: 6px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  
+  &:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  }
+}
+
+.btn--primary {
+  background: linear-gradient(135deg, $primary-color, darken($primary-color, 10%));
+  border: none;
+  
+  &:hover {
+    background: linear-gradient(135deg, darken($primary-color, 5%), darken($primary-color, 15%));
+  }
+}
+
+/* Social Links Improvements */
+.author__urls {
+  .social-icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    
+    li {
+      margin: 0;
+      
+      a {
+        display: flex;
+        align-items: center;
+        padding: 0.5rem;
+        border-radius: 4px;
+        background: #f8f9fa;
+        color: $text-color;
+        text-decoration: none;
+        transition: all 0.3s ease;
+        
+        &:hover {
+          background: $primary-color;
+          color: #fff;
+          transform: translateY(-1px);
+        }
+        
+        i {
+          margin-right: 0.5rem;
+        }
+      }
+    }
+  }
+}
+
+/* Mobile Optimizations */
+@include breakpoint(max-width $small) {
+  .author__avatar {
+    text-align: center;
+    margin-bottom: 1rem;
+    
+    img {
+      width: 120px;
+      height: 120px;
+    }
+  }
+  
+  .author__content {
+    text-align: center;
+  }
+  
+  .feature__wrapper {
+    padding: 0 1rem;
+  }
+}
